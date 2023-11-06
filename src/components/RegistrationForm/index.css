@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.bg-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-head {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #ea580c;
+}
+.form {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 40%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: black;
+  margin-top: 13px;
+}
+.input {
+  height: 33px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+}
+.red-color {
+  background-color: #fef2f4;
+  border-color: #ff0b37;
+}
+.required {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.submit {
+  height: 35px;
+  align-self: center;
+  background-color: #ea580c;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin-top: 13px;
+}
+.success-img {
+  height: 70px;
+  width: 70px;
+  align-self: center;
+}
+.success-msg {
+  align-self: center;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
